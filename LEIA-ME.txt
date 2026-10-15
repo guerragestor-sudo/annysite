@@ -1,0 +1,70 @@
+LANDING PAGE · JOY LAPA COM A ANNY REIS (Cavazani · Minha Casa Minha Vida)
+=========================================================================
+
+Versão melhorada do site que estava no Meta AI. Tudo fica em um único
+index.html (visual + funcionamento) e as imagens ficam na pasta assets/.
+
+
+1) O QUE EDITAR (bloco "EDITE AQUI" no fim do index.html)
+---------------------------------------------------------
+  whatsapp:     '5511989686074'              → número da Anny (55 + DDD + número)
+  lancamento:   '2026-10-24T00:00:00-03:00'  → data do lançamento. Depois dela a
+                                               contagem some e os textos viram
+                                               "Em lançamento" / "Garanta a sua unidade do lote 1".
+  metaPixelId:  ''                           → ID do Pixel da Anny (só números). Com ele, a página
+                                               registra PageView, "Contact" nos botões de WhatsApp
+                                               e "Lead" no formulário.
+  formEndpoint: ''                           → para onde o cadastro vai (planilha, CRM...).
+                                               Vazio = o formulário só abre o WhatsApp da Anny
+                                               com nome, telefone, renda e planta já preenchidos.
+
+
+2) FOTO DA ANNY
+---------------
+assets/anny.webp é o recorte (sem fundo) feito a partir da foto do site antigo.
+Para ficar ainda mais nítido, troque por um recorte feito da foto ORIGINAL
+(PNG ou WebP com fundo transparente, do topo do cabelo até o peito, de frente).
+Mantenha o mesmo nome de arquivo: assets/anny.webp.
+
+
+3) PUBLICAR
+-----------
+Arraste a pasta inteira (joy-lapa-anny) no Netlify Drop (app.netlify.com/drop)
+ou publique pelo GitHub, como no site do Joy Lapa.
+
+Depois de publicado, troque no index.html a linha do og:image para o endereço
+completo, por exemplo:
+  <meta property="og:image" content="https://SEU-SITE.netlify.app/assets/og-image.jpg">
+Sem isso, a prévia com a foto da Anny e da fachada não aparece quando o link é
+compartilhado no WhatsApp e no Instagram.
+
+
+4) O QUE MUDOU EM RELAÇÃO AO SITE DO META AI
+--------------------------------------------
+- Topo: a foto da Anny agora aparece à frente da fachada do Joy Lapa, dentro de um
+  arco, com o endereço do empreendimento e o nome/CRECI dela.
+- Identidade oficial Cavazani (vinho, tinta e o gradiente "joy"), no lugar do
+  azul/amarelo/vermelho genérico.
+- As plantas apareciam duas vezes (cards + imagens). Agora ficam num só bloco
+  com abas: Smart, Select, Prime e Garden, cada uma com o botão de simular.
+- Lazer com fotos reais do book, no lugar de ícones.
+- Seção "Como funciona o Minha Casa Minha Vida" em 3 passos.
+- WhatsApp sempre à mão: barra fixa no celular e botão flutuante no computador.
+  Cada botão abre o WhatsApp com uma mensagem pronta diferente (ex.: "Quero simular
+  o Select"), então a Anny já sabe de onde veio o cliente e o que ele quer.
+- Formulário mais curto (sem e-mail): nome, WhatsApp, renda e planta.
+- Contagem regressiva real até o lançamento de 24/10.
+
+Retirado de propósito:
+- "7 unidades vendidas essa semana": o empreendimento está em breve lançamento e
+  a venda só começa após o registro da incorporação. A frase pode ser vista como
+  propaganda enganosa.
+- "4.9★ avaliação": não havia fonte. Se a Anny tiver avaliações no Google, dá para
+  voltar com o número e o link para as avaliações.
+
+
+5) CONFERIR ANTES DE ANUNCIAR
+-----------------------------
+- Preços "a partir de" (R$ 229 mil / 249 mil / 299 mil) e escritura grátis no lote 1.
+- Regras do MCMV (subsídio até R$ 55 mil, juros a partir de 4% a.a., até 35 anos).
+- "+80 famílias atendidas" e "atendimento até as 22h": confirmar com a Anny.
