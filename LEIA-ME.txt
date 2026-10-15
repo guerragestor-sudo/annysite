@@ -93,7 +93,8 @@ Cada linha da planilha traz data, nome, WhatsApp, renda, planta, as UTMs do anú
 e um link "Chamar no WhatsApp" que abre a conversa com o cliente e uma mensagem pronta.
 
 Aviso no WhatsApp da Anny (opcional, grátis, via CallMeBot):
-  - Do celular da Anny, adicione o contato +34 644 66 32 62 e mande para ele:
+  - Pegue o número atual do bot em callmebot.com (seção WhatsApp; ele muda de
+    tempos em tempos). Do celular da Anny, salve esse contato e mande para ele:
       I allow callmebot to send me messages
   - O bot responde com uma "apikey". Cole em callmebotApiKey no Apps Script e
     faça Implantar > Gerenciar implantações > editar > Nova versão.
